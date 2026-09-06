@@ -2,70 +2,42 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
     {
-        title: "Kasoa Bites",
+    title: "MealMix",
         description:
-            "A food ordering application designed to help users discover and order meals online.",
-        technologies: [
-            "React",
-            "Next.js",
-            "Tailwind CSS",
-            "JavaScript",
-        ],
-        github: "#",
-        demo: "#",
-    },
-
-    {
-        title: "Ghana Recipes",
-        description:
-            "A recipe website showcasing Ghanaian meals with a user-friendly interface.",
+      "A food ordering application designed to help users discover meals, customize orders, and enjoy a simple online ordering experience.",
         technologies: [
             "HTML",
             "CSS",
             "JavaScript",
         ],
-        github: "#",
+        github: "https://github.com/Gifty12-hub/mealmix-food-app.git",
         demo: "#",
     },
 
     {
-        title: "AI Agent Project",
+    title: "iTalent4U",
         description:
-            "An AI-powered assistant project exploring how intelligent agents can solve problems.",
+      "A talent-focused website that connects people with opportunities, resources, and a platform to showcase their skills.",
         technologies: [
-            "AI",
-            "Python",
-            "APIs",
+            "HTML",
+            "CSS",
+            "JavaScript",
         ],
-        github: "#",
-        demo: "#",
-    },
-
-    {
-        title: "Developer Portfolio",
-        description:
-            "A personal portfolio website built to showcase my software development journey and projects.",
-        technologies: [
-            "Next.js",
-            "TypeScript",
-            "Tailwind CSS",
-        ],
-        github: "#",
+        github: "https://github.com/jorge-murillo-010/italent4u-landing.git",
         demo: "#",
     },
     {
-        title: "Mama Match GH",
+    title: "Portfolio Website",
         description:
-            "A platform designed to connect mothers with helpful resources, support services, and relevant information to improve maternal and family wellbeing in Ghana.",
+      "A personal portfolio website built to showcase my skills, projects, and experiences in software development.",
         technologies: [
-            "Next.js",
+            "React",
             "TypeScript",
             "Tailwind CSS",
-            "Supabase",
         ],
-        github: "#",
+        github: "https://github.com/Gifty12-hub/my_portfolio.git",
         demo: "#",
-    },
+    }
 ];
 
 export default function Projects() {
