@@ -60,14 +60,15 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-white py-20">
+    <section id="experience" className="bg-white py-24">
       <div className="mx-auto max-w-6xl px-6">
 
-        <h2 className="text-center text-4xl font-bold text-gray-900">
+        <p className="mb-3 text-center text-sm font-semibold uppercase tracking-[0.2em] text-[#f47770]">The path so far</p>
+        <h2 className="text-center text-4xl font-bold tracking-[-0.04em] text-[#17213b]">
           Experience
         </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-center text-gray-600">
+        <p className="mx-auto mt-4 max-w-2xl text-center text-[#64708a]">
           My professional, educational, and leadership experiences.
         </p>
 
@@ -75,7 +76,7 @@ export default function Experience() {
           {experiences.map((experience) => (
             <div
               key={experience.role}
-              className="rounded-xl border p-6 shadow-sm hover:shadow-md text-green-900"
+              className="rounded-2xl border border-[#dfe4f0] border-l-4 border-l-[#f47770] bg-[#fbfcff] p-6 text-[#17213b] shadow-sm hover:shadow-md"
             >
               <div className="flex flex-col justify-between gap-2 md:flex-row">
 
@@ -84,18 +85,18 @@ export default function Experience() {
                     {experience.role}
                   </h3>
 
-                  <p className="text-blue-600 font-semibold">
+                  <p className="font-semibold text-[#0f9d9a]">
                     {experience.organization}
                   </p>
                 </div>
 
-                <p className="text-gray-500">
+                <p className="text-sm font-medium text-[#8791a8]">
                   {experience.period}
                 </p>
 
               </div>
 
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 leading-7 text-[#64708a]">
                 {experience.description}
               </p>
 
@@ -103,7 +104,7 @@ export default function Experience() {
                 {experience.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="rounded-full bg-gray-100 px-3 py-1 text-sm"
+                    className="rounded-full bg-[#eef1f7] px-3 py-1 text-sm text-[#64708a]"
                   >
                     {skill}
                   </span>

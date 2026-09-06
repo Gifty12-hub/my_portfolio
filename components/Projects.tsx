@@ -70,14 +70,15 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-gray-50 py-20">
+    <section id="projects" className="bg-[#f7f8fc] py-24">
       <div className="mx-auto max-w-6xl px-6">
 
-        <h2 className="text-center text-4xl font-bold text-black">
+        <p className="mb-3 text-center text-sm font-semibold uppercase tracking-[0.2em] text-[#f47770]">Selected work</p>
+        <h2 className="text-center text-4xl font-bold tracking-[-0.04em] text-[#17213b]">
           Projects
         </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-center text-gray-600">
+        <p className="mx-auto mt-4 max-w-2xl text-center text-[#64708a]">
           Some of the projects I have built while learning and applying
           software development skills.
         </p>
